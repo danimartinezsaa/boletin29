@@ -24,6 +24,7 @@ public class Boletin29{
         Barco barco5=new Veleros(40,"dwq341");
         
         ArrayList<Barco> barcos=new ArrayList();
+        barcos.add(barco5);
         
         Factura.crear(barco3, 2);
     }
